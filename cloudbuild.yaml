@@ -17,5 +17,9 @@ steps:
       '--allow-unauthenticated'
     ]
 
+# Set logging to use only Cloud Logging
+options:
+  logging: NONE
+
 images:
   - 'us-east1-docker.pkg.dev/$PROJECT_ID/Earls-Discount-System-test/app:$SHORT_SHA'
