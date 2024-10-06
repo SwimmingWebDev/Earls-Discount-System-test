@@ -19,7 +19,7 @@ steps:
 
 # Set logging to use only Cloud Logging
 options:
-  logging: NONE
+  logging: CLOUD_LOGGING_ONLY
 
 images:
   - 'us-east1-docker.pkg.dev/$PROJECT_ID/earls-discount-system-test/app:$SHORT_SHA'
