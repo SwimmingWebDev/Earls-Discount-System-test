@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the Django development server
-CMD python manage.py migrate && gunicorn --bind :8080 Earls_Discount_System.wsgi
+CMD gunicorn --bind :$PORT Earls_Discount_System.wsgi
