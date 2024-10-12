@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-jl3medy*j-w53$vewwp#%(exstbnl-iz7rre!7&rn%v$xj72cw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['earls-eccard-app-234204981539.us-east1.run.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -120,12 +120,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    BASE_DIR / 'static',
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
